@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, FlatList, Text, StyleSheet, Image, TouchableOpacity, TextInput } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Import icon
+import { Ionicons } from '@expo/vector-icons'; 
 import axios from 'axios';
 
 const Home = ({ navigation }) => {
@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     paddingHorizontal: 16,
-    paddingTop: 16,
+    paddingTop: 50,
   },
   searchContainer: {
     flexDirection: 'row',
@@ -143,11 +143,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   bannerImage: {
-    width: '100%',   // Chiều rộng toàn màn hình
-    height: 120,     // Chiều cao tùy chỉnh cho banner
-    resizeMode: 'cover', // Căn chỉnh ảnh cho phù hợp
+    width: '100%',   
+    height: 120,     
+    resizeMode: 'cover', 
     borderRadius: 10,
-    marginBottom: 12, // Khoảng cách dưới banner
+    marginBottom: 12, 
   },
   categoryContainer: {
     flexDirection: 'row',

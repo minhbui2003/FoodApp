@@ -29,7 +29,8 @@ const Detail = ({ route }) => {
 
       <Text style={styles.restaurantInfo}>Restaurants info</Text>
       <Text style={styles.infoText}>
-        Order a Large Pizza but the size is the equivalent of a medium/small from other places at the same price range.
+        Order a Large Pizza but the size is the equivalent of a medium/small from other places
+        123 Nguyen Thai Son, Go Vap, Ho Chi Minh
       </Text>
 
       <Button title="Add to Cart" onPress={() => alert('Added to cart!')} color="#4CAF50" />

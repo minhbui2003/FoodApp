@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
     width: 70,
     height: 70,
     borderRadius: 8,
-    marginRight: 10,
+    marginRight: 25,
   },
   info: {
     flex: 1,
@@ -226,22 +226,21 @@ const styles = StyleSheet.create({
     fontSize: 16,
   },
   removeText: {
-    fontSize: 14,
     color: '#FF6347',
     fontWeight: 'bold',
   },
   paymentSection: {
-    marginBottom: 20,
+    marginBottom: 25,
   },
   paymentTitle: {
     fontSize: 16,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 20,
   },
   radio: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 10,
+    marginBottom: 20,
     padding: 10,
   },
   selectedRadio: {
@@ -254,7 +253,7 @@ const styles = StyleSheet.create({
   totalText: {
     fontSize: 20,
     fontWeight: 'bold',
-    marginBottom: 10,
+    marginBottom: 20,
   },
   checkoutButton: {
     backgroundColor: '#4CAF50',
